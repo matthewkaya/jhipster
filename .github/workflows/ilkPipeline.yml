@@ -5,6 +5,7 @@ on:
   push: 
     branches: [ "main" ]
     
+    
 jobs:
   docker-login:
     name: Login to docker
